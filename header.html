@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    {{#link 'help_center'}}
+      <img src="{{settings.logo}}" alt="simplehuman support home">
+    {{/link}}
+  </div>
+  <div class="nav-wrapper" style="margin-bottom: -13px;">
+    <span class="icon-menu" tabindex="0" role="button" aria-controls="user-nav" aria-expanded="false" aria-label="{{t 'toggle_navigation'}}"></span>
+    <nav class="user-nav" id="user-nav">
+      <a href="https://www2.simplehuman.com/uk/" class="header-link-main-site">back to main site</a>
+      <!-- {{link 'community'}} 
+      {{link 'new_request' class='submit-a-request'}} -->
+      
+    </nav>
+    <!-- {{user_info}} -->
+  </div>
+</header>
+<div class="nav-container"></div>
+  
+</body>
+</html>
