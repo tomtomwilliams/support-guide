@@ -1,0 +1,170 @@
+<!-- trio mirror ST3024 ST3034 -->
+
+{{#is section.id 360000507837}}
+
+<div class="container-divider"></div>
+<div class="container">
+  <nav class="sub-nav">
+    {{breadcrumbs}}
+    {{search submit=false}}
+  </nav>
+
+  <div class="section-container">
+    <section class="section-content">
+      <img style="max-width: 980px;" src="https://dojbfbukd6hul.cloudfront.net/web_assets/support/trio-support-header_v2.png" alt="">
+      <header class="page-header-mirror">
+        <h1>
+          {{section.name}}
+        </h1>
+        {{#if settings.show_follow_section}}
+          {{subscribe}}
+        {{/if}}
+        {{#if section.description}}
+          <p class="page-header-description">{{section.description}}</p>
+        {{/if}}
+      </header>
+
+      <div class="quick-links">quick links</div>
+      <a href="" class="instructions">download instructions</a>
+
+      {{#if section.articles}}
+        <ul class="article-list">
+          {{#each section.articles}}
+            <li class="article-list-item {{#if promoted}} article-promoted{{/if}}">
+              {{#if promoted}}
+                <span data-title="{{t 'promoted'}}" class="icon-star"></span>
+              {{/if}}
+              <a href="{{url}}" class="article-list-link">{{title}}</a>
+              {{#if internal}}
+                <span class="icon-lock" title="{{t 'internal'}}"></span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{else}}
+        <i class="section-empty">
+          <a href="{{section.url}}">{{t 'empty'}}</a>
+        </i>
+      {{/if}}
+
+      {{pagination}}
+    </section>
+  </div>
+</div>
+
+{{/is}}
+
+
+<!-- wide view pro mirror ST3014 -->
+
+{{#is section.id 360000507797}}
+
+<div class="container-divider"></div>
+<div class="container">
+  <nav class="sub-nav">
+    {{breadcrumbs}}
+    {{search submit=false}}
+  </nav>
+
+  <div class="section-container">
+    <section class="section-content">
+      <img style="max-width: 980px;" src="https://dojbfbukd6hul.cloudfront.net/web_assets/support/wide-view-support-header.png" alt="">
+      <header class="page-header-mirror">
+        <h1>
+          {{section.name}}
+        </h1>
+        {{#if settings.show_follow_section}}
+          {{subscribe}}
+        {{/if}}
+        {{#if section.description}}
+          <p class="page-header-description">{{section.description}}</p>
+        {{/if}}
+      </header>
+
+      <div class="quick-links">quick links</div>
+      <a href="" class="instructions">download instructions</a>
+
+      {{#if section.articles}}
+        <ul class="article-list">
+          {{#each section.articles}}
+            <li class="article-list-item {{#if promoted}} article-promoted{{/if}}">
+              {{#if promoted}}
+                <span data-title="{{t 'promoted'}}" class="icon-star"></span>
+              {{/if}}
+              <a href="{{url}}" class="article-list-link">{{title}}</a>
+              {{#if internal}}
+                <span class="icon-lock" title="{{t 'internal'}}"></span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{else}}
+        <i class="section-empty">
+          <a href="{{section.url}}">{{t 'empty'}}</a>
+        </i>
+      {{/if}}
+
+      {{pagination}}
+    </section>
+  </div>
+</div>
+
+{{/is}}
+
+
+
+<!-- sensor mirror compact ST3025 ST3030 ST3031 -->
+
+{{#is section.id 360000507817}}
+
+<div class="container-divider"></div>
+<div class="container">
+  <nav class="sub-nav">
+    {{breadcrumbs}}
+    {{search submit=false}}
+  </nav>
+
+  <div class="section-container">
+    <section class="section-content">
+      <img style="max-width: 980px;" src="https://dojbfbukd6hul.cloudfront.net/web_assets/support/compact-support-header.png" alt="">
+      <header class="page-header-mirror">
+        <h1>
+          {{section.name}}
+        </h1>
+        {{#if settings.show_follow_section}}
+          {{subscribe}}
+        {{/if}}
+        {{#if section.description}}
+          <p class="page-header-description">{{section.description}}</p>
+        {{/if}}
+      </header>
+
+      <div class="quick-links">quick links</div>
+      <a href="" class="instructions">download instructions</a>
+
+      {{#if section.articles}}
+        <ul class="article-list">
+          {{#each section.articles}}
+            <li class="article-list-item {{#if promoted}} article-promoted{{/if}}">
+              {{#if promoted}}
+                <span data-title="{{t 'promoted'}}" class="icon-star"></span>
+              {{/if}}
+              <a href="{{url}}" class="article-list-link">{{title}}</a>
+              {{#if internal}}
+                <span class="icon-lock" title="{{t 'internal'}}"></span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{else}}
+        <i class="section-empty">
+          <a href="{{section.url}}">{{t 'empty'}}</a>
+        </i>
+      {{/if}}
+
+      {{pagination}}
+    </section>
+  </div>
+</div>
+
+{{/is}}
