@@ -1857,7 +1857,13 @@ ul {
 
 .article-body img {
   height: auto;
-  max-width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.article-image-center {
+  width: 100%;
+  text-align: center;
 }
 
 .article-body ul, .article-body ol {
